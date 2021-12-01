@@ -31,6 +31,6 @@ function containsDup(nums, k) {
   return false;
 }
 
-console.log(containsDup([1, 0, 1, 1], 1));
-console.log(containsDup([1, 0, 6, 3], 2));
-console.log(containsDup([1, 0, 4, 3, 5, 5], 5));
+console.log(containsDup([1, 0, 1, 1], 1)); //true
+console.log(containsDup([1, 2, 3, 1, 2, 3], 2)); //false
+console.log(containsDup([1, 2, 3, 1], 3)); //true
